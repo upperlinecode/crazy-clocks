@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crazy Clock - Lab
 
-## Available Scripts
+![Crazy Clock](CrazyClock.png)
 
-In the project directory, you can run:
+## The Goal
+In this lab, we will be creating a clock that changes depending on the time that is being displayed. Anything that changes this much second to second can be considered crazy, much like my wife.
 
-### `npm start`
+### Getting Started
+Clone this repository. In the terminal, run the following commands:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```HTML
+npm install
+npm start
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### The Lab
+1. Using inline styling, set the font color of the hours to red
+2. Using inline styling, set the font color of the minutes to orange
+3. Using inline styling, set the font color of the seconds to purple
+4. If the time is before noon, set the background color of the of clock to yellow.
+5. If the time is after noon, set the background color of the clock to blue
+6. If the amount of minutes is greater than 30, change the font color to green.
+7. If the minute is an EVEN number, the time should be displayed in bold
+8. If the minute is an ODD number, change the time to a different font.
+9. Set the font size (in px) of the seconds to the amount of seconds that have passed (ex: 32 seconds should have a font-size of 32px).
+10. Every 15 seconds, change the font color of the hours to a random color.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Stretch
+1. Have the background color become a DARKER shade of yellow from hour 0 to hour 12. Have the background color become a DARKER blue from the hour 12 to hour 24 (almost black by hour 24).
+2. Add text on top of the clock that says "Good Morning!" before 12pm, "Good Afternoon" between 12pm and 7pm, and "Good Night" between 7pm and 12am.
+3. Rotate the clock (in degrees) by the amount of seconds*6 that have passed.
+4. Add box-shadow to clock that is on the left before 12 and is on the right after 12.
