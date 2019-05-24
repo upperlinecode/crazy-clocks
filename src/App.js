@@ -1,5 +1,4 @@
 import React from 'react';
-import Clock from './components/Clock.js'
 import './App.css';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
   let hours = time.getHours()
   let minutes = time.getMinutes()
   let seconds = time.getSeconds()
-  
+
   return (
     <div className="App">
       <div className="clock">

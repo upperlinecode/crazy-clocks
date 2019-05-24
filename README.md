@@ -26,7 +26,7 @@ npm start
 10. Every 15 seconds, change the font color of the hours to a random color.
 
 ### Stretch
-1. Have the background color become a DARKER shade of yellow from hour 0 to hour 12. Have the background color become a DARKER blue from the hour 12 to hour 24 (almost black by hour 24).
-2. Add text on top of the clock that says "Good Morning!" before 12pm, "Good Afternoon" between 12pm and 7pm, and "Good Night" between 7pm and 12am.
+1. Add text on top of the clock that says "Good Morning!" before 12pm, "Good Afternoon" between 12pm and 7pm, and "Good Night" between 7pm and 12am.
+2. Have the background color become a DARKER shade of yellow from hour 0 to hour 12. Have the background color become a DARKER blue from the hour 12 to hour 24 (almost black by hour 24).
 3. Rotate the clock (in degrees) by the amount of seconds*6 that have passed.
 4. Add box-shadow to clock that is on the left before 12 and is on the right after 12.
