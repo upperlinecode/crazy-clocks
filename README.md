@@ -3,7 +3,7 @@
 ![Crazy Clock](CrazyClock.png)
 
 ## The Goal
-In this lab, we will be creating a clock that changes depending on the time that is being displayed. Anything that changes this much second to second can be considered crazy, much like my wife.
+In this lab, we will be creating a clock that changes depending on the time that is being displayed. It might not be the most useful clock, but it will definitely be interesting to look at.
 
 ### Getting Started
 Clone this repository. In the terminal, run the following commands:
