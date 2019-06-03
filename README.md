@@ -8,7 +8,7 @@ In this lab, we will be creating a clock that changes depending on the time that
 ### Getting Started in CS50
 
 1. Clone this repository using `git clone`
-2. `cd` into the `street-hard-reusable-components-props-lab` folder
+2. `cd` into the `crazy-clocks` folder
 3. `npm install`
 4. `npm start`
 5. If the app compiles with no errors:
